@@ -1,0 +1,17 @@
+{
+  "name": "tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "latest",
+    "@tanstack/start": "latest",
+    "vinxi": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
