@@ -1,20 +1,20 @@
 {
   "name": "tools-dashboard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
     "dev": "rspack dev",
     "build": "rspack build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "lucide-react": "^0.284.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.395.0"
   },
   "devDependencies": {
-    "@rspack/cli": "^0.5.0",
-    "@rspack/core": "^0.5.0",
-    "@rspack/plugin-react-refresh": "^0.5.0",
-    "react-refresh": "^0.14.0"
+    "@rspack/cli": "^1.0.0",
+    "@rspack/core": "^1.0.0",
+    "@rspack/plugin-react-refresh": "^1.0.0",
+    "react-refresh": "^0.14.2"
   }
 }

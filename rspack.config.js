@@ -1,9 +1,15 @@
 const { defineConfig } = require('@rspack/cli');
 const rspack = require('@rspack/core');
+const path = require('path');
 
 module.exports = defineConfig({
-  entry: './src/index.tsx',
+  context: __dirname,
+  entry: {
+    main: './src/index.tsx',
+  },
   output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js',
     clean: true,
   },
   module: {
