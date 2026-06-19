@@ -1,15 +1,10 @@
-import { createRootRoute, Link, Outlet } from '@tanstack/react-router'
+import { createRootRoute, Outlet } from '@tanstack/react-router'
+import '../styles.css'
 
 export const Route = createRootRoute({
   component: () => (
-    <>
-      <div className="p-2 flex gap-2">
-        <Link to="/" className="[&.active]:font-bold">
-          Home
-        </Link>
-      </div>
-      <hr />
+    <div className="min-h-screen bg-slate-950 text-slate-50 selection:bg-orange-500/30">
       <Outlet />
-    </>
+    </div>
   ),
 })
