@@ -71,7 +71,7 @@ export default function App() {
         .card { background: rgba(15, 23, 42, 0.6); border: 1px solid #1e293b; padding: 32px; border-radius: 24px; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
         .card:hover { border-color: #334155; transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
         .card-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
-        .icon-box { padding: 12px; borderRadius: 16px; background: #1e293b; }
+        .icon-box { padding: 12px; border-radius: 16px; background: #1e293b; }
         .label { color: #94a3b8; font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin: 0 0 8px; }
         .value { font-size: 44px; font-family: 'JetBrains Mono', monospace; font-weight: 700; color: #f8fafc; }
         .unit { font-size: 14px; color: #64748b; font-weight: 500; margin-left: 4px; }
